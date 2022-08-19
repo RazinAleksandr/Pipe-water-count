@@ -17,13 +17,13 @@ class Application(QtWidgets.QMainWindow, design.Ui_MainWindow):
 		self.listWidget.itemClicked.connect(self.button_enable)
 
 		self.pushButton_2.clicked.connect(lambda: self.graph_build(self.listWidget.currentItem().text(),
-																   float(self.lineEdit.text()) * 10 ** (-6),
-																   float(self.lineEdit_2.text()),
-																   float(self.lineEdit_3.text()) * 10 ** (-3),
-																   float(self.lineEdit_4.text()),
-																   float(self.lineEdit_6.text()),
-																   float(9.8),
-																   float(self.lineEdit_7.text())))
+									   float(self.lineEdit.text()) * 10 ** (-6),
+									   float(self.lineEdit_2.text()),
+									   float(self.lineEdit_3.text()) * 10 ** (-3),
+									   float(self.lineEdit_4.text()),
+									   float(self.lineEdit_6.text()),
+									   float(9.8),
+									   float(self.lineEdit_7.text())))
 
 		self.pushButton_3.clicked.connect(self.excel_upload)
 
@@ -46,15 +46,15 @@ class Application(QtWidgets.QMainWindow, design.Ui_MainWindow):
 		self.Q = (c * math.pi * d ** 2) / 4
 
 		self.result_df, self.V_itog = utils.calculate(file_name, 
-											   		  v, 
-													  rn, 
-													  sigma, 
-													  d, 
-													  rv, 
-													  g, 
-													  self.Q, 
-													  float(self.doubleSpinBox.text().replace(',', '.')), 
-													  float(self.doubleSpinBox_2.text().replace(',', '.')))
+							      v, 
+							      rn, 
+							      sigma, 
+							      d, 
+							      rv, 
+							      g, 
+							      self.Q, 
+							      float(self.doubleSpinBox.text().replace(',', '.')), 
+							      float(self.doubleSpinBox_2.text().replace(',', '.')))
 		
 		pixmap = QPixmap('prof.jpg')
 		self.new_label.setPixmap(pixmap)
