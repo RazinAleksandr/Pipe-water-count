@@ -20,11 +20,11 @@ pyinstaller --onefile One_file_app.py
 ## Instruction manual
 For running tests for the application, you need to follow the algorithm:
 - Run the app.
-- Upload necessary data files, by clicking "Загрузить файл" button.
+- Upload necessary data files, by clicking "Upload file" button.
 - Choose current file for calculation by clicking it's name in the list of files.
 - Set the necessary baseline data.
-- Click by button "Построить график".
-- Click by button "Сохранить результат в excel формате" to download the result data file.
+- Click by button "Draw a graph".
+- Click by button "Save the result in excel format" to download the result data file.
 - Repeat the algorithm to calculate another pipe profile.
 
 Visualization of the application work:
