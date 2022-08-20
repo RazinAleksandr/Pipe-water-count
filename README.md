@@ -28,8 +28,8 @@ For running tests for the application, you need to follow the algorithm:
 - Repeat the algorithm to calculate another pipe profile.
 
 Visualization of the application work:
-![Screenshot from 2022-08-21 00-50-28](https://user-images.githubusercontent.com/109418051/185767245-bafc88ec-d5d8-4c77-b50b-efd7640dd21e.png)
+![Screenshot from 2022-08-21 01-24-54](https://user-images.githubusercontent.com/109418051/185768184-bde43583-fcb6-4ad7-92de-e8fd882b2b46.png)
 Visualization of the result data file:
-![Screenshot from 2022-08-21 01-02-43](https://user-images.githubusercontent.com/109418051/185767516-3b6f8bd0-ab91-4975-a9e6-47e2811f9976.png)
+![Screenshot from 2022-08-21 01-02-43](https://user-images.githubusercontent.com/109418051/185768190-ef21b611-e979-46b7-86c5-9ec6450937b3.png)
 ## Authors
 - **Razin Aleksandr** - *Initial work* - [RazinAleksandr](https://github.com/RazinAleksandr)
