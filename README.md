@@ -5,7 +5,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 Modules used in the application: PyQt5, pandas, numpy, matplotlib, math. If you don't have some of them, you need to install them sequentially as follows:
 ```
-!pip install PyQt5, pandas, numpy, matplotlib, math.
+!pip install PyQt5, pandas, numpy, matplotlib, math
 ```
 ### Running
 There are two ways to run the application: through the command line and through an .exe file. If you want to run application by command prompt, you need to run the following command in cmd:
